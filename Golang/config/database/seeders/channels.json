@@ -1,0 +1,20 @@
+[
+    {
+        "id": 1,
+        "package_id": 1,
+        "name": "Shopee",
+        "link": "https://shopee.co.id/",
+        "asset_url": "",
+        "description": "Shopee Channels",
+        "is_active": true
+    },
+    {
+        "id": 2,
+        "package_id": 1,
+        "name": "Tokopedia",
+        "link": "https://tokopedia.com/",
+        "asset_url": "",
+        "description": "Tokopedia Channels",
+        "is_active": true
+    }
+]

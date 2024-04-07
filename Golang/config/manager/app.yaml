@@ -1,0 +1,36 @@
+app:
+  name: "AppName"
+  port: "8080"
+  env: "development"
+
+database:
+  driver: "postgre"
+  port: "5432"
+  host: "localhost"
+  name: "sekejap-app"
+  user: "postgres"
+  password: "postgres"
+  extras:
+    ssl_mode: "disable" # Configuration for sslmode=disable.
+    timeout: 1000ms # In duration.
+    max: 100 # Max connection.
+    min: 2 # Min connection.    
+    idle: 10 # Idle connection.
+
+redis:
+  host: "localhost:6379"
+  user: ""
+  password: ""
+
+services:
+  storage:
+    firebase:
+      client_id: "x"
+      client_secret: "y"
+  oauth:
+    google:
+      client_id: "z"
+      client_secret: "a"
+    facebook:
+      client_id: ""
+      client_secret: ""
